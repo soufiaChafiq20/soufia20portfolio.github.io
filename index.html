@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+
 </head>
 <body>
     <!--main container start-->
@@ -16,32 +24,30 @@
         <!--aside start-->
         <div class="aside">
             <div class="logo">
-                <a href="#"><span>S</span>ophie</a>
+                <a href="#"><span>My</span> Portfolio</a>
             </div>
             <div class="nav-toggler">
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i> About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i>My Projects</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div> 
         <!--aside end-->
         <!--main content start-->
         <div class="main-content">
             <!--home section start -->
-            <section class="home section">
+            <section class="home active section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, my name is <span class="name">CHAFIQ Soufia</span></h3>
                             <h3 class="my-profession">I' m a <span class="typing">Computer Science Student at ENSA Marrakesh</span></h3>
-                            <p>I am passionate about technology and problem-solving, with a strong foundation in web development and database management. Through my involvement in various clubs such as MUN, Self-Dev, and the Computer Engineering Club, I have honed my skills in teamwork, event organization, and leadership. I am constantly seeking opportunities to improve my programming skills, particularly in Python, and to gain practical experience through internships. My goal is to become a skilled engineer, contribute to innovative projects, and eventually build my own entrepreneurial ventures. Outside of academics, I am dedicated to personal growth, maintaining a balanced life, and staying aligned with my values.
-                            </p>
-                            <a href="#contact" class="tn hire-me">Mire Me</a>
+                            <p> Passionate about technology and problem-solving, I’m growing as a programmer while actively developing soft skills through student club involvement. I aim to become a well-rounded engineer who creates meaningful impact.</p>
+                            <a href="assets/Soufia_Chafiq_CV.pdf" class="btn" download="Soufia_Chafiq_CV.pdf">Download CV</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="images/queen.jpg" alt="">
@@ -50,11 +56,311 @@
                 </div> 
             </section>
             <!--home section end -->
+            <!--About section start--> 
+            <section class="about section " id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <h3>
+                                        I'm CHAFIQ Soufia and <span>Computer science student</span></h3>
+                                        <p>
+                                            I'm pursuing my studies at ENSA Marrakech, Morroco at Cadi Ayad University. Passionate about technology and problem-solving, I began learning programming with PHP, and I’m continuously exploring new tools and languages to expand my skills.
+                                            So far, I’ve developed a web application for managing indicators by sector during an internship, and I’m currently working on a second PHP project, as well as experimenting with a game in Python. These projects are helping me strengthen my development skills and deepen my understanding of software creation.
+                                            In addition to my technical journey, I’m actively involved in student clubs where I organize and host events, allowing me to build valuable soft skills like communication, leadership, and collaboration.
+                                            I'm always curious about the latest tech innovations, and I’m open to collaborating on new and exciting projects that help me grow and make a difference.
+                                            </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                    <div class="row">
+                                        <div class="info-item padd-15">
+                                            <p>Birthday: <span>04 november 2004 </span>
+                                            </p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Age : <span>20 </span>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Linkdin : <span>soufia chafiq</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Email:<span>souficachafiq@gmail.com</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>Phone:<span>+212-761934276</span></p>
+                                        </div>
+                                        <div class="info-item padd-15">
+                                            <p>City: <span>Marrakesh ,Morroco</span></p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#" class="btn">Dowload CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="skills padd-15">
+                                        <div class="row">
+                                            <!-- Hard Skills Section -->
+                                            <div class="skill-category padd-15">
+                                                <h4>Technical Skills</h4>
+                                                <div class="skill-items">
+                                                    <!-- Technical Skills -->
+                                                    <div class="skill-tag">HTML</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">PHP</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">Symfony</div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Soft Skills Section -->
+                                            <div class="skill-category padd-15">
+                                                <h4>Soft Skills</h4>
+                                                <div class="skill-items">
+                                                    <div class="skill-tag">Communication</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">Leadership</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">Teamwork</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">Problem-solving</div>
+                                                    <span class="skill-separator"> - </span>
+                                                    <div class="skill-tag">Event Organization</div>
+                                                    <!-- Add more soft skills from your experience -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="row">
+                                        <div class="buttons padd-15">
+                                            <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shodow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2O10 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">Scientific Baccalaureate (Physical Sciences) – Grade: Very Good</h4>
+                                                    <p class="timeline-text">
+                                                        Completed in 2022 Hassan II High School, Beni Ayat, Azilal, Morocco. Focused on mathematics, physics, and chemistry, earning the distinction "Très Bien" for outstanding academic performance
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Engineering Degree in Computer Science</h4>
+                                                    <p class="timeline-text">
+                                                        Pursuing an Engineering Degree in Computer Science at the National School of Applied Sciences (ENSA), Marrakech, Morocco. The program focuses on advanced topics in software development, algorithms, data structures, and systems engineering, with an expected graduation in 2027, Insha'Allah.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experience padd-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shodow-dark">
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h4 class="title">Professional</h4>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> Juin - July 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">Internship – Web Development with PHP, HTML</h4>
+                                                    <p class="timeline-text">
+                                                        Currently completing an internship at the Secrétariat Général des Affaires Régionales (SGAR), Beni Mellal-Khénifra. During this internship, I am developing a web application for managing sector-specific indicators. I work with PHP and HTML for front-end and back-end development, and have recently started using Symfony to enhance the structure and scalability of the application.
+                                                    </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h4 class="title">Extracurricular</h4>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2022 - Present
+                                                    </h3>
+                                                    <h4 class="timeline-title">Campus Involvement</h4>
+                                                    <p class="timeline-text">
+                                                        I am an active member of several extracurricular clubs and associations, where I take on roles such as organizing, animating, and participating in various events and activities. Notable clubs include the Reporting Eye Club and Self-Dev, as well as associations like Success Makers Morocco. These experiences allow me to develop essential soft skills such as leadership, communication, teamwork, and problem-solving, all of which contribute to my personal and professional growth.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--About section end-->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>My Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Internship Project : </h2>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shodow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio/portfolio.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <div class="video-and-text">
+                <div class="video-duo">
+                    <div class="video-container">
+                        <video controls poster="images/portfolio/portfolio.jpg">
+                            <source src="videos/Média1.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-caption">First Look at My Web Application for Indicator Tracking</div>
+                    </div>
+                </div>
+                <div class="video-text-content">
+                    <h3>Web Application for Tracking and Managing Indicators Across Different Sectors</h3>
+                    <p>
+                        During my internship in the province of Beni Mellal-Khénifra, Morocco, I had my first experience in web development. Although I had never programmed before, I took on the challenge and successfully built a web application to manage and organize indicator values by sector using PHP, HTML, Bootstrap, and WampServer. Once I completed the project with PHP, I decided to take it a step further and rebuild it using the Symfony framework to enhance the application's structure and add features like user registration and login. This experience sparked my passion for web development and marked the beginning of my journey in tech. To learn more about the project, you can download my internship report .<br>
+                    </p>
+                </div>
+            </div>  
+            <div class="video-download-buttons">
+                <a href="assets/Rapport de stage-2-1.pdf" class="btn" download>
+                    <i class="fas fa-file-pdf"></i> Download Internship French Report
+                </a>
+                <a href="assets/Chafiq_Soufia_Certificate.pdf" class="btn" download>
+                    <i class="fas fa-file-certificate"></i> Download Internship French Certificate
+                </a>
+            </div>  
+            </section>
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">DO YOU HAVE QUESTIONS, FEEDBACK, OR COLLABORATION IDEAS?</h3>
+                    <h4 class="contact-sub-title padd-15">Let's EXPLORE possibilities !</h4>
+                    <div class="row">
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Me On</h4>
+                            <p>+212 761934276</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>soufiachafiq@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item padd 15">
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/soufia-chafiq-27a167268?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEkDdpyN9TmeIMNyLrtS9Zw%3D%3D" target="_blank">
+                                    <i class="fab fa-linkedin" id="linkedin-icon"></i>
+                                </a>
+                            </div>
+                            <h4>Linkdin</h4>
+                            <p>soufia chafiq</p>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL </h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <div class="row">
+<!-- Remplacez VOTRE SECTION DE FORMULAIRE ACTUELLE par ceci : -->
+<div class="contact-form padd-15">
+    <form action="https://formspree.io/f/xwplznnv" method="POST">
+        <div class="row">
+            <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                </div>
+            </div>
+            <div class="form-item col-6 padd-15">
+                <div class="form-group">
+                    <input type="email" name="_replyto" class="form-control" placeholder="Email" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                    <input type="text" name="_subject" class="form-control" placeholder="Subject" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                    <textarea name="message" class="form-control" placeholder="Message" required></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-item col-12 padd-15">
+                <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Champ caché pour la redirection après envoi -->
+        <input type="hidden" name="_next" value="https://votresite.com/merci.html">
+    </form>
+</div>
+                    </div>
+                </div>
+            </section>
         </div>
         <!--main content end-->
     </div>
-    <!--main container end-->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
     <!--js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
 </body>
 </html>
