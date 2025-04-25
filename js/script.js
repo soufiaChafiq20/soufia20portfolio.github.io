@@ -65,15 +65,15 @@ const nav = document.querySelector(".nav"),
                             }
                         }
                     }
-                    document.querySelector(".hire-me").addEventListener("click", function()
-                    {
-                        const sectionIndex = this.getAttribute("data-section-index");
-                        console.log(SectionIndex);
-                        showSection(this);
-                        updateNav(this);
-                        removeBackSection();
-                        addBackSection(sectionIndex);
-                    });
+                    // document.querySelector(".hire-me").addEventListener("click", function()
+                    // {
+                    //     const sectionIndex = this.getAttribute("data-section-index");
+                    //     console.log(SectionIndex);
+                    //     showSection(this);
+                    //     updateNav(this);
+                    //     removeBackSection();
+                    //     addBackSection(sectionIndex);
+                    // });
 
 
             const navTogglerBtn = document.querySelector(".nav-toggler");
